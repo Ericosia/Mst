@@ -44,7 +44,7 @@ fn main() -> io::Result<()>{
         delete_paths(del_paths);
     }
     let duration = star.elapsed();
-    println!("{}", duration.as_millis());     
+    println!("it took: {} ms", duration.as_millis());     
     Ok(())   
 
 }
